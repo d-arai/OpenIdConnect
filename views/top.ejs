@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+	<p><%= user %> さんようこそ！</p>
+	<p><img src=<%= picture %> width="128" height="128" alt="No Image!"></p>
+	<form action="/logout" method="GET">
+		<input type="submit" value="ログアウト"/>
+	</form>
+  </body>
+</html>
